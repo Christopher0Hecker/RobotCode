@@ -92,7 +92,7 @@ public class Wheels extends SubsystemBase {
         return this.RightWheelMotor.getEncoder().getPosition();
     }
 
-    public boolean getWheelsSwitch()
+    public boolean getWheelSwitch()
     {
         return this.WheelLimitSwitch.get();
     }
